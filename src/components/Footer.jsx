@@ -31,11 +31,11 @@ export default function Footer() {
   return (
     <footer
     ref={footerRef}
-      className="orange-text-gradient text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left" id="footer">
+      className="bg-black-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left" id="footer">
       <div
         className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
         <div className="mr-12 hidden lg:block">
-          <span> {translations[language].Getconnectedwithusonsocialnetworks}</span>
+          <span style={{color:"#f6892a"}}> {translations[language].Getconnectedwithusonsocialnetworks}</span>
         </div>
         {/* <!-- Social network icons container --> */}
         <div className="flex justify-center">
@@ -104,6 +104,7 @@ export default function Footer() {
           {/* <!-- TW Elements section --> */}
           <div className="">
             <h6
+            style={{color:"#f6892a"}}
               className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -124,6 +125,7 @@ export default function Footer() {
           {/* <!-- Contact section --> */}
           <div>
             <h6
+            style={{color:"#f6892a"}}
               className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               Contact
             </h6>
