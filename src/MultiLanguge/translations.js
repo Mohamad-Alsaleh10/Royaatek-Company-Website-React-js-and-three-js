@@ -1,0 +1,46 @@
+const translations = {
+    en: {
+      Welcometo: "Welcome , to",
+      Elevate: "Elevate Your Business with Cutting-Edge Software Solutions",
+      AboutUS:"About US",
+      OurServices:"Our Services",
+      WeFocused:"We Focused On Modern Software And Design",
+      OurProjects:"Our Projects",
+      visit:"Visit Our Latest Projects And Our Innovative Works",
+      Followingprojects:"Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+      WhatOtherSay:"What others say",
+      Getintouch:"Get in touch",
+      Contact:"Contact",
+      YourName:"Your Name",
+      Youremail:"Your email",
+      YourMessage:"Your Message",
+      Send:"Send",
+      Whatotherssay:"What others say",
+      Testimonials:"Testimonials",
+      Getconnectedwithusonsocialnetworks:"Get connected with us on social networks",
+
+    },
+    ar: {
+     Welcometo: "مرحبا بك في",
+     Elevate:"ارتقِ بمستوى أعمالك باستخدام حلول البرامج المتطورة",
+     AboutUS:"حولنا",
+     OurServices:"خدماتنا",
+     WeFocused:"نحن نركز على تصميم البرمجيات الحديثة",
+     OurProjects:"مشاريعنا",
+     visit:"قم بالإطلاع على مشاريعنا",
+     Followingprojects:"تُظهِر المشاريع التالية مهاراتي وخبرتي من خلال أمثلة واقعية من عملي. يتم وصف كل مشروع بإيجاز مع روابط لمستودعات التعليمات البرمجية والعروض التوضيحية الحية فيه. ويعكس ذلك قدرتي على حل المشكلات المعقدة والعمل باستخدام تقنيات مختلفة وإدارة المشاريع بفعالية.",
+     WhatOtherSay:"ماذا يقول الآخرين عنا",
+     Getintouch:"ابق على تواصل",
+     Contact:"اتصل بنا",
+     YourName:"اسمك",
+     Youremail:"البريد الإلكتروني",
+     YourMessage:"رسالتك",
+     Send:"إرسال",
+     Whatotherssay:"ماذا قال الاخرين",
+     Testimonials:"التقييمات",
+     Getconnectedwithusonsocialnetworks:"ابقى على تواصل معنا على شبكات التواصل الإجتماعي",
+
+    },
+   };
+   
+   export default translations;
