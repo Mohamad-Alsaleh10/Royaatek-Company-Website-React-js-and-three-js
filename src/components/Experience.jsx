@@ -34,12 +34,12 @@ const ExperienceCard = ({ experience ,  language }) => {
         </div>
       }
     >
-      <div>
-        <h3 className='text-white text-[24px] font-bold'>{language === "ar" ? experience.title_ar : experience.title_en}</h3>
+      <div dir={language === "ar" ? "rtl" : "ltr"}>
+        <h3 className='text-white text-[24px] font-bold' >{language === "ar" ? experience.title_ar : experience.title_en}</h3>
 
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
+      <ul className='mt-5 list-disc ml-5 space-y-2' dir={language === "ar" ? "rtl" : "ltr"}>
       {language === "ar" ? experience.description_ar : experience.description_en}
 
       </ul>
@@ -68,7 +68,7 @@ const Experience = () => {
     return <div>Loading...</div>; // Or any loading indicator
   }
   return (
-    <>
+    <div className="services">
       <div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`} id="services">
            {translations[language].OurServices}
@@ -91,7 +91,7 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   );
 };
 

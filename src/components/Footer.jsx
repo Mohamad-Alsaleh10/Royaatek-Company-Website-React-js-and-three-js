@@ -116,7 +116,7 @@ export default function Footer() {
               </svg>
               Royaatek
             </h6>
-            <p style={{ textAlign: language === 'en' ? 'left' : 'right' }}>
+            <p style={{ textAlign: language === 'en' ? 'left' : 'right' , color:"white" }}>
   {language === 'en' ? aboutData.description_en : aboutData.description_ar}
 </p>
 
@@ -129,7 +129,7 @@ export default function Footer() {
               className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               Contact
             </h6>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
+            <p className="mb-4 flex items-center justify-center md:justify-start mohammed">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -142,7 +142,7 @@ export default function Footer() {
               </svg>
               {aboutData.location_en}
             </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
+            <p className="mb-4 flex items-center justify-center md:justify-start mohammed">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -155,7 +155,7 @@ export default function Footer() {
               </svg>
               {aboutData.email}
             </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
+            <p className="mb-4 flex items-center justify-center md:justify-start mohammed">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -175,11 +175,8 @@ export default function Footer() {
 
       {/* <!--Copyright section--> */}
       <div className="orange-text-gradient p-6 text-center dark:bg-neutral-700">
-        <span>© 2024 Copyright:</span>
-        <a
-          className="font-semibold text-neutral-600 dark:text-neutral-400"
-          href="https://mohamad-alsaleh10.github.io/My-Portfolio/"
-        > DEVELOPED BY Mohammed ALSALEH</a>
+        <span> All Rights Reserved © 2024</span>
+
       </div>
     </footer>
   );
