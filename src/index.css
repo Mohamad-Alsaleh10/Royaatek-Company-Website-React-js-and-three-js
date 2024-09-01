@@ -239,3 +239,10 @@ h2 , h3{
 .services{
   direction: ltr !important;
 }
+
+.text-neutral-600{
+  color:white !important;
+}
+.bg-primary{
+  background-color: #043253 ;
+}
